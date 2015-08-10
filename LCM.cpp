@@ -18,8 +18,19 @@ int main() {
 		lcm = num1;
 	}
 	else {
-
+		if(num1 > num2) {
+			test = num1;
+		}
+		else {
+			test = num2;
+		}
+		while(!(test % num1 == 0 && test % num2 == 0)) {
+			++test;
+		}
+		lcm = test;
 	}
+
+	cout << "The LCM is " << lcm << "." << endl;
 
 	return 0;
 }
