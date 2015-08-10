@@ -1,0 +1,1 @@
+LCM.d: ../LCM.cpp
