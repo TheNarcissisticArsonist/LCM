@@ -10,5 +10,9 @@ int main() {
 	int lcm  = 0;
 	int test = 0;
 
+	cout << "Least Common Multiple Calculator" << endl << endl;
+	cout << "First number: ";	cin >> num1;
+	cout << "Second number: ";	cin >> num2;
+
 	return 0;
 }
